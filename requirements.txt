@@ -1,6 +1,6 @@
 streamlit
 langchain>=0.3
-langchain-community
+langchain-community>=0.3
 langchain-groq
 duckduckgo-search
 python-dotenv
