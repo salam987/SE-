@@ -60,4 +60,5 @@ if prompt := st.chat_input(placeholder="Type Your Question..."):
 
 """Gets the assistant’s reply.
 Saves it into history.
+
 Displays it in the chat."""
