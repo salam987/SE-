@@ -2,8 +2,9 @@ import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_community.utilities import ArxivAPIWrapper, WikipediaAPIWrapper
 from langchain_community.tools import ArxivQueryRun, WikipediaQueryRun, DuckDuckGoSearchRun
-from langchain.agents import initialize_agent
-from langchain.agents.types import AgentType
+from langchain_community.agents import initialize_agent
+
+from langchain_community.agents.types import AgentType
 from langchain.callbacks import StreamlitCallbackHandler  # this allows to communicate all these tools in themselves
 import os
 from dotenv import load_dotenv
@@ -63,4 +64,5 @@ if prompt := st.chat_input(placeholder="Type Your Question..."):
 Saves it into history.
 
 Displays it in the chat."""
+
 
