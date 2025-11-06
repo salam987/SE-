@@ -21,7 +21,7 @@ st.title("🔍 LangChain - Chat With Search")
 In this example, we're using `StreamlitCallbackHandler` to display the thoughts and actions of the agent in an interactive Streamlit App.
 Try more LangChain Streamlit Agents examples at [github.com/langchain-ai/streamlit-agent]
 """
-
+#
 # Sidebar for settings
 st.sidebar.title("Settings")
 api_key = st.sidebar.text_input("Enter your Groq Api Key:", type="password")
@@ -62,6 +62,7 @@ if prompt := st.chat_input(placeholder="Type Your Question..."):
 Saves it into history.
 
 Displays it in the chat."""
+
 
 
 
